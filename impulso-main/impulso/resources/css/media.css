@@ -1,0 +1,4 @@
+.post-public-photo { display:block; width:calc(100% + 44px); height:150px; object-fit:cover; margin:-22px -22px 18px; border-radius:5px 5px 0 0; }
+.post-photo { display:block; width:170px; height:100px; object-fit:cover; border-radius:5px; margin-bottom:12px; }
+.discount-badge { display:inline-block; margin-left:8px; padding:4px 7px; border-radius:12px; background:#e4f49c; color:#176b61; font:700 .7rem var(--sans); }
+@media (max-width:760px) { .post-photo { width:100%; height:150px; } }

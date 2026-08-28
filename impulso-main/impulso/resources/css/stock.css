@@ -1,0 +1,26 @@
+.management-list { margin-top:20px; }
+.product-admin-row { display:grid; grid-template-columns:1fr auto auto; gap:16px; align-items:center; padding:17px; border:1px solid var(--line); background:white; }
+.product-admin-main { display:flex; gap:14px; align-items:center; }
+.product-admin-main > div { display:grid; gap:4px; }
+.product-admin-main small { display:block; color:var(--muted); font-size:.78rem; }
+.stock-form { display:grid; gap:8px; min-width:150px; }
+.stock-form label { font-size:.72rem; font-weight:600; color:var(--muted); }
+.stock-form input { width:100%; border:1px solid var(--line); border-radius:4px; padding:10px 12px; background:white; color:var(--ink); font:inherit; }
+.income-panel { display:grid; gap:22px; }
+.catalog-list { display:grid; gap:12px; margin-top:10px; }
+.catalog-item { display:flex; justify-content:space-between; gap:16px; align-items:center; padding:15px 16px; border:1px solid var(--line); border-radius:6px; background:#fafbf8; }
+.catalog-item strong { display:block; margin-bottom:5px; }
+.catalog-item small { color:var(--muted); font-size:.78rem; }
+.income-total-box { display:grid; gap:5px; text-align:right; background:#f0f5ef; padding:12px 14px; border-radius:6px; min-width:150px; }
+.income-total-box span { color:var(--muted); font-size:.75rem; font-weight:700; text-transform:uppercase; letter-spacing:.08em; }
+.income-total-box strong { font:700 1.4rem var(--serif); }
+.receipt-box { border:1px solid var(--line); border-radius:6px; padding:18px; background:#fafbf8; display:grid; gap:14px; }
+.receipt-head { display:grid; gap:4px; }
+.receipt-head small, .receipt-empty, .receipt-summary { color:var(--muted); font-size:.8rem; }
+.receipt-items { display:grid; gap:12px; }
+.receipt-row { display:grid; grid-template-columns:1fr auto auto; gap:12px; align-items:center; padding:12px; background:white; border:1px solid var(--line); border-radius:6px; }
+.receipt-row strong { display:block; margin-bottom:4px; }
+.receipt-controls { display:flex; align-items:center; gap:8px; }
+.receipt-controls input { width:68px; text-align:center; border:1px solid var(--line); border-radius:4px; padding:9px 10px; font:inherit; }
+.receipt-summary { display:block; margin-top:3px; }
+.button.button-small.add-item { min-width:48px; padding:10px 12px; gap:0; }
